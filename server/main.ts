@@ -26,7 +26,10 @@ Meteor.methods({
         }
         Searches.insert({SRAid: id});
         return full_data(id[id.length-1]);
-
     },
-})
+
+    insert: function(data){
+        Searches.insert(data);
+    },
+});
 
