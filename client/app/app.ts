@@ -4,14 +4,16 @@ import {Component} from 'angular2/core';
 import {bootstrap} from 'angular2/bootstrap';
 import {Query} from "../query/query";
 
+
+
 @Component({
   selector: 'app',
   templateUrl: 'client/app/app.html',
-  directives: [Query],
+  directives: [Query]
 })
 
-class Socially {
+class meteor_geo {
   
 }
  
-bootstrap(Socially);
+bootstrap(meteor_geo);

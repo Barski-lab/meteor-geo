@@ -4,6 +4,7 @@
       <sourceFilesUrls>
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.10/web.browser/pre.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.10/web.browser/post.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/peerlibrary_xml2js/0.4.8_1/web.browser/packages/peerlibrary_xml2js.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.10/web.browser/fastclick.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/geojson-utils/1.0.7/web.browser/geojson-utils.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/geojson-utils/1.0.7/web.browser/main.js" />
@@ -62,6 +63,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.4/web.browser/livedata_common.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.4/web.browser/client_convenience.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.4/web.browser/id_map.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/peerlibrary_blocking/0.5.2/web.browser/packages/peerlibrary_blocking.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.4/web.browser/random_stream.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.4/web.browser/method_invocation.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.4/web.browser/namespace.js" />
@@ -137,6 +139,7 @@
     <CLASSES>
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.10/web.browser/pre.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.10/web.browser/post.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/peerlibrary_xml2js/0.4.8_1/web.browser/packages/peerlibrary_xml2js.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.10/web.browser/fastclick.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/geojson-utils/1.0.7/web.browser/geojson-utils.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/geojson-utils/1.0.7/web.browser/main.js" />
@@ -195,6 +198,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.4/web.browser/livedata_common.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.4/web.browser/client_convenience.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.4/web.browser/id_map.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/peerlibrary_blocking/0.5.2/web.browser/packages/peerlibrary_blocking.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.4/web.browser/random_stream.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.4/web.browser/method_invocation.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.4/web.browser/namespace.js" />

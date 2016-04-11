@@ -1,10 +1,18 @@
+
+
 <h4>{{title}}</h4>
+
 <input #sra (keyup.enter) = "take_sra(sra.value)">
 <button (click)=retrieve(sra.value)>Retrieve</button>
 
 <p>{{sra.value}}</p>
 
+<output #sraoutput (click) = 'retrieve(sra.value)'>
 
+
+
+
+<clientcall></clientcall>
 
 <!--<li *ngFor="#objects of outp">-->
 

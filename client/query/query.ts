@@ -4,20 +4,20 @@ import 'reflect-metadata';
 import 'zone.js/dist/zone';
 import {Component} from 'angular2/core';
 import { Meteor } from 'meteor/meteor';
-
-
+import {HTTP} from 'meteor/http';
+import {Client_call} from "../clientcall/clientcall";
 
 //import {Searches} from '../../server/main.ts';
 
 @Component({
     selector: 'query',
     templateUrl: 'client/query/query.html',
-
+    directives: [Client_call],
 })
 
 
 export class Query{
-    outp: Array<Object>;
+    //@Output outp;
     title = 'Enter SRA, SRP, SRS numbers...';
     take_sra(sra:string){
         //sra = this.value;
@@ -25,17 +25,24 @@ export class Query{
     }
     retrieve(sra){
         var out = [];
-        Meteor.call('SRAdata',sra,function(err,res){
-            if (err) throw err;
-            else {
-                // Prints everything to console. Need to beautify
-                //console.log(res);
-                out.push(res);
-            }
-            console.log(out);
-        });
-        this.outp = out;
-        //console.log(outp);
-        //return out;
+        if (sra!= "") {
+            Meteor.call('SRAdata', sra, function (err, res) {
+                if (err) {
+                    console.log(err)
+                }
+                else {
+                    // Prints everything to console. Need to beautify
+                    //console.log(res);
+                    out.push(res);
+                }
+                console.log(out);
+                return out[0][0].EXPERIMENT_PACKAGE_SET;
+            });
+
+            //console.log(outp);
+            //return out;
+            //Query.call('sr');
+        }
     }
+    
 }
